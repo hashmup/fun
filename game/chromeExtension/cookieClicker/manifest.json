@@ -1,0 +1,13 @@
+{
+ "name":"CookieClicker",
+ "version": "0.0.1",
+ "manifest_version": 2,
+ "description": "Infinite click on cookie",
+ "content_scripts": [
+  {
+   "matches":["http://orteil.dashnet.org/cookieclicker/"],
+   "js": ["jquery.min.js","script.js"],
+   "run_at": "document_start"
+  }
+ ]
+}
